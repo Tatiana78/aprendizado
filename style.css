@@ -1,15 +1,17 @@
+css
 /*Comentários css*/
 
 
-/* seletor { propriedade; valor} 
-    */
+/* seletor { propriedade; valor;
+} */
+
 body {
     margin: 0;
     padding: 0;
 }
 
-.banner {
-    background-image: url("./banner-bg.png");
+ .banner {
+    background-image: url("./img/banner-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -43,7 +45,6 @@ body {
   }
   
   /*SEGUNDA PARTE */
-  
   .sobre-mim {
     display: flex;
     justify-content: center;
@@ -51,25 +52,27 @@ body {
     margin-bottom: 80px;
   }
   
-  .sobre-mim-descricao {
-    width: 465px; /*Largura da tela */
+  .sobre-minha-descrição {
+    width: 465px; 
+    /*Largura da tela */
     padding-right: 60px;
   
   }
   
-  .sobre-mim-descricao p {
+  .sobre-minha-descrição p {
     line-height: 25px;
   
   }
   
-  .sobre-mim-descricao h2 {
+  .sobre-minha-descricao h2 {
     width: 465px;
     padding-right: 60px;
     margin-top: 45px;
     color: grey;
   }
   
-  .sobre-mim-descricao a {
+  /* Botão Vejam o meu CV */
+  .sobre-minha-descrição a {
     background-color: white;
     color: #826994;
     border: 1px solid #826994;
@@ -94,7 +97,6 @@ body {
   }
   
   /* TERCEIRA PARTE */
-  
   .redes-sociais {
     display: flex;
     justify-content: center;
